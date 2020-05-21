@@ -1,4 +1,9 @@
 .sidebar{
-    color: green;
-    position: sticky;
+    color: white;    
+}
+.myName{
+    text-align: center;
+}
+.links{
+    text-align: center;
 }
