@@ -1,3 +1,28 @@
 .main {
-    font-size: 45px;
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 100%;
+    grid-template-rows: 100vh 100vh 100vh 100vh;
+    grid-template-areas: 
+      "home"
+      "portfolio"
+      "about"
+      "contact";
+
+}
+.home{
+    grid-area: "home";
+    background-color: orange;
+}
+.portfolio{
+    grid-area: "portfolio";
+    background-color: darkslategray;
+}
+.about{
+    grid-area: "about";
+    background-color: mediumorchid;
+}
+.contact{
+    grid-area: "contact";
+    background-color: powderblue;
 }
