@@ -3,7 +3,13 @@
 }
 .myName{
     text-align: center;
+    position: relative;
+    top: 32vh;
+    font-size: 35px;
 }
 .links{
     text-align: center;
+    position: relative;
+    top: 38vh;
+    font-size: 20px;
 }
