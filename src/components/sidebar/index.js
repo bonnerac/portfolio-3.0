@@ -10,10 +10,18 @@ function Sidebar() {
                     Alex C. Bonner
                 </div>
                 <div className="links">
-                    <a href='#home'> Home </a>
-                    <a href='#portfolio'> Portfolio </a>
-                    <a href='#about'> About </a>
-                    <a href='#contact'> Contact </a>
+                    <div>
+                        <a href='#home'> Home </a>
+                    </div>
+                    <div>
+                        <a href='#portfolio'> Portfolio </a>
+                    </div>
+                    <div>
+                        <a href='#about'> About </a>
+                    </div>
+                    <div>
+                        <a href='#contact'> Contact </a>
+                    </div>
                 </div>
 
             </div>

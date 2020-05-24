@@ -18,3 +18,18 @@
     grid-area: main;
 
 }
+a:link {
+    color: yellow;
+  }
+  
+  a:visited {
+    color: cyan;
+  }
+  
+  a:hover {
+    color: lightgreen;
+  }
+  
+  a:active {
+    color: hotpink;
+  } 
