@@ -7,7 +7,7 @@ function Sidebar() {
         <>
             <div className="sidebar" >
                 <div className="myName">
-                    Alex C. Bonner
+                    Alex Bonner
                 </div>
                 <div className="links">
                     <div>

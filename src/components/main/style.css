@@ -2,11 +2,14 @@
     display: grid;
     overflow: hidden;
     grid-template-columns: 100%;
-    grid-template-rows: 100vh 100vh 100vh 100vh;
+    grid-template-rows: 100vh 50vh 100vh 50vh 100vh 50vh 100vh;
     grid-template-areas: 
       "home"
+      "buffer1"
       "portfolio"
+      "buffer2"
       "about"
+      "buffer3"
       "contact";
 
 }
@@ -25,4 +28,13 @@
 .contact{
     grid-area: "contact";
     background-color: powderblue;
+}
+.buffer1{
+    background-color: white;
+}
+.buffer2{
+    background-color: white;
+}
+.buffer3{
+    background-color: white;
 }
