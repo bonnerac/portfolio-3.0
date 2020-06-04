@@ -10,16 +10,21 @@ function Main() {
             <div className="main">
                 <ScrollableAnchor id={'home'}>
                     <div className="home">
-                        this is the home section <br />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at sapien augue. Donec sit amet quam lacus. Phasellus ac sapien vel ante tempus aliquam. Aliquam quis libero id purus tempor tincidunt ac et diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque tempus, leo a convallis laoreet, nunc risus fringilla nulla, vel posuere nisi justo accumsan massa. Suspendisse ac magna augue. Proin eget euismod ex, eu placerat ante. Nullam finibus, ipsum ut tristique maximus, est orci blandit mi, non scelerisque lectus mi ut turpis. Morbi nisi ipsum, convallis eget massa eget, viverra rhoncus purus.
+                        <div data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="800">
+                            This is the home section <br />
+                    Hi! I'm Alex. Welcome to the website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at sapien augue. Donec sit amet quam lacus. Phasellus ac sapien vel ante tempus aliquam. Aliquam quis libero id purus tempor tincidunt ac et diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque tempus, leo a convallis laoreet, nunc risus fringilla nulla, vel posuere nisi justo accumsan massa. Suspendisse ac magna augue. Proin eget euismod ex, eu placerat ante. Nullam finibus, ipsum ut tristique maximus, est orci blandit mi, non scelerisque lectus mi ut turpis. Morbi nisi ipsum, convallis eget massa eget, viverra rhoncus purus.
+                        </div>
                     </div>
                 </ScrollableAnchor>
                 <div className="buffer1"></div>
                 <ScrollableAnchor id={'portfolio'}>
                     <div className="portfolio">
-                        this is the portfolio section <br />
+                        <div data-aos="slide-left" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="800">
+
+                            this is the portfolio section <br />
                     Morbi sit amet magna suscipit, rhoncus est ac, ultricies nisi. Nam et leo eu mi feugiat tincidunt. Ut ut ornare mi, quis faucibus tellus. Fusce cursus, sem vitae venenatis sollicitudin, sapien metus facilisis justo, nec maximus arcu erat quis diam. Suspendisse potenti. Duis vitae mollis magna. Aliquam pretium tortor vel urna tincidunt, at pharetra magna hendrerit. Nam felis erat, imperdiet eu facilisis quis, dignissim eget mauris.
-                </div>
+                        </div>
+                    </div>
                 </ScrollableAnchor>
                 <div className="buffer2"></div>
                 <ScrollableAnchor id={'about'}>

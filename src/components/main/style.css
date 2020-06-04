@@ -17,10 +17,12 @@
     grid-area: "home";
     background-color: black;
     color: white;
+    font-size: 40px;
 }
 .portfolio{
     grid-area: "portfolio";
     background-color: darkslategray;
+    font-size: 40px;
 }
 .about{
     grid-area: "about";
