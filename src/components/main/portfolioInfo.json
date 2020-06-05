@@ -1,0 +1,17 @@
+[
+    {
+        "picture": "https://i.imgur.com/J2GS09E.png",
+        "description": "An subscription e-commerce site that delivers curated Marvel comics each month. Built with React and CSS grid, featuring a login using Passport and Credit Card payment using Stripe.",
+        "links": "HERE"
+    },
+    {
+        "picture": "https://i.imgur.com/KOQwguQ.png",
+        "description": "An application that shows you information about the soil and plant life in a given area. Uses the Distributed Active Archive Center for Biochemical Dynamics database from NASA. Built using CSS Grid and features a custom animation.",
+        "links": "HERE"
+    },
+    {
+        "picture": "https://i.imgur.com/etEF8Ng.jpg",
+        "description": "An application that takes the plot of your favorite movie, and reads it aloud in multiple speeds and accents. Built using Materialize and uses 3 APIs (Voice RSS Text to Speech, The Open Movie Database, Youtube)",
+        "links": "HERE"
+    }
+]

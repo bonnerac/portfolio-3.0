@@ -2,6 +2,8 @@ import React from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
 import video from '../../images/Chain.mp4'
+import PortfolioEntry from '../PortfolioEntry'
+import portfolioInfo from './portfolioInfo.json'
 import '../main/style.css'
 
 function Main() {
@@ -29,10 +31,20 @@ function Main() {
                     <div className="portfolio">
                         <div className="portfolioTitle" data-aos="slide-left" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="800">
                             My Portfolio
-                            <div className="line">
-
-                            </div>
                         </div>
+                        <PortfolioEntry
+                            picture={portfolioInfo[0].picture}
+                            description={portfolioInfo[0].description}
+                            links={portfolioInfo[0].links} />
+                        <PortfolioEntry
+                            picture={portfolioInfo[1].picture}
+                            description={portfolioInfo[1].description}
+                            links={portfolioInfo[1].links} />
+                        <PortfolioEntry
+                            picture={portfolioInfo[2].picture}
+                            description={portfolioInfo[2].description}
+                            links={portfolioInfo[2].links} />
+
                     </div>
                 </ScrollableAnchor>
                 <div className="buffer2"></div>

@@ -1,0 +1,30 @@
+.portContainer{
+    display: grid;
+    overflow: hidden;
+    border: black 3px solid;
+    margin: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "picture description portLinks";
+
+}
+.picture{
+    grid-area: picture;
+    background-color: ivory;
+    height: 200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+.description{
+    grid-area: description;
+    background-color: lawngreen;
+    font-size: 20px;
+}
+.portLinks{
+    grid-area: portLinks;
+    background-color: maroon;
+}
