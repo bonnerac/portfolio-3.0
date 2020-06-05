@@ -53,3 +53,18 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+.videoTag{
+    height: 100%;
+    /* text-align: center; */
+}
+.overlayText{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.portfolioTitle{
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    top: 10%;
+}

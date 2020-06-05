@@ -1,6 +1,7 @@
 import React from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
+import video from '../../images/Chain.mp4'
 import '../main/style.css'
 
 function Main() {
@@ -10,19 +11,27 @@ function Main() {
             <div className="main">
                 <ScrollableAnchor id={'home'}>
                     <div className="home">
-                        <div data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="800">
-                            This is the home section <br />
-                    Hi! I'm Alex. Welcome to the website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at sapien augue. Donec sit amet quam lacus. Phasellus ac sapien vel ante tempus aliquam. Aliquam quis libero id purus tempor tincidunt ac et diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque tempus, leo a convallis laoreet, nunc risus fringilla nulla, vel posuere nisi justo accumsan massa. Suspendisse ac magna augue. Proin eget euismod ex, eu placerat ante. Nullam finibus, ipsum ut tristique maximus, est orci blandit mi, non scelerisque lectus mi ut turpis. Morbi nisi ipsum, convallis eget massa eget, viverra rhoncus purus.
+                        <video className='videoTag' autoPlay loop muted>
+                            <source src={video} type='video/mp4' />
+
+                        </video>
+                        <div className="overlayText" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="800">
+                            Hello, I'm
+                            <h1 style={{ color: "red" }}>Alex Bonner</h1>
+                            <br />
+                            I'm a Front End Web Developer
+
                         </div>
                     </div>
                 </ScrollableAnchor>
                 <div className="buffer1"></div>
                 <ScrollableAnchor id={'portfolio'}>
                     <div className="portfolio">
-                        <div data-aos="slide-left" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="800">
+                        <div className="portfolioTitle" data-aos="slide-left" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="800">
+                            My Portfolio
+                            <div className="line">
 
-                            this is the portfolio section <br />
-                    Morbi sit amet magna suscipit, rhoncus est ac, ultricies nisi. Nam et leo eu mi feugiat tincidunt. Ut ut ornare mi, quis faucibus tellus. Fusce cursus, sem vitae venenatis sollicitudin, sapien metus facilisis justo, nec maximus arcu erat quis diam. Suspendisse potenti. Duis vitae mollis magna. Aliquam pretium tortor vel urna tincidunt, at pharetra magna hendrerit. Nam felis erat, imperdiet eu facilisis quis, dignissim eget mauris.
+                            </div>
                         </div>
                     </div>
                 </ScrollableAnchor>
