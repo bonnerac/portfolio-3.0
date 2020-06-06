@@ -35,15 +35,21 @@ function Main() {
                         <PortfolioEntry
                             picture={portfolioInfo[0].picture}
                             description={portfolioInfo[0].description}
-                            links={portfolioInfo[0].links} />
+                            siteLink={portfolioInfo[0].siteLink}
+                            gitHubLink={portfolioInfo[0].gitHubLink}
+                            presentationLink={portfolioInfo[0].presentationLink} />
                         <PortfolioEntry
                             picture={portfolioInfo[1].picture}
                             description={portfolioInfo[1].description}
-                            links={portfolioInfo[1].links} />
+                            siteLink={portfolioInfo[1].siteLink}
+                            gitHubLink={portfolioInfo[1].gitHubLink}
+                            presentationLink={portfolioInfo[1].presentationLink} />
                         <PortfolioEntry
                             picture={portfolioInfo[2].picture}
                             description={portfolioInfo[2].description}
-                            links={portfolioInfo[2].links} />
+                            siteLink={portfolioInfo[2].siteLink}
+                            gitHubLink={portfolioInfo[2].gitHubLink}
+                            presentationLink={portfolioInfo[2].presentationLink} />
 
                     </div>
                 </ScrollableAnchor>
