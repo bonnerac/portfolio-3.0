@@ -1,5 +1,6 @@
 [
     {
+        "name": "HeroBox",
         "picture": "https://i.imgur.com/J2GS09E.png",
         "description": "An subscription e-commerce site that delivers curated Marvel comics each month. Built with React and CSS grid, featuring a login using Passport and Credit Card payment using Stripe.",
         "siteLink": "https://pacific-chamber-07789.herokuapp.com/",
@@ -7,13 +8,15 @@
         "presentationLink": "https://docs.google.com/presentation/d/1biS8w7GJff7HjOaJWAlOnAa6y9eEiHNel4LNRAPo6xQ/edit#slide=id.p"
     },
     {
+        "name": "SoilTime",
         "picture": "https://i.imgur.com/KOQwguQ.png",
-        "description": "An application that shows you information about the soil and plant life in a given area. Uses the Distributed Active Archive Center for Biochemical Dynamics database from NASA. Built using CSS Grid and features a custom animation.",
+        "description": "An application that shows you information about the soil and plant life in a given area. Uses NASA's Distributed Active Archive Center for Biochemical Dynamics database. Built using CSS Grid and features a custom animation.",
         "siteLink": "https://sheltered-shore-12233.herokuapp.com/",
         "gitHubLink": "https://github.com/SoilTime/Soil-App",
         "presentationLink": "https://docs.google.com/presentation/d/1MdX7_UnOzreRuPxxKgGZYXibERu5Rt1Jxc4yBzSjlNo/edit?usp=sharing"
     },
     {
+        "name": "CinemaVox",
         "picture": "https://i.imgur.com/etEF8Ng.jpg",
         "description": "An application that takes the plot of your favorite movie, and reads it aloud in multiple speeds and accents. Built using Materialize and uses 3 APIs (Voice RSS Text to Speech, The Open Movie Database, Youtube)",
         "siteLink": "https://bonnerac.github.io/CinemaVox/",

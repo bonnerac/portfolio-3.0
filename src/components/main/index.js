@@ -34,18 +34,21 @@ function Main() {
                         </div>
                         <PortfolioEntry
                             picture={portfolioInfo[0].picture}
+                            name={portfolioInfo[0].name}
                             description={portfolioInfo[0].description}
                             siteLink={portfolioInfo[0].siteLink}
                             gitHubLink={portfolioInfo[0].gitHubLink}
                             presentationLink={portfolioInfo[0].presentationLink} />
                         <PortfolioEntry
                             picture={portfolioInfo[1].picture}
+                            name={portfolioInfo[1].name}
                             description={portfolioInfo[1].description}
                             siteLink={portfolioInfo[1].siteLink}
                             gitHubLink={portfolioInfo[1].gitHubLink}
                             presentationLink={portfolioInfo[1].presentationLink} />
                         <PortfolioEntry
                             picture={portfolioInfo[2].picture}
+                            name={portfolioInfo[2].name}
                             description={portfolioInfo[2].description}
                             siteLink={portfolioInfo[2].siteLink}
                             gitHubLink={portfolioInfo[2].gitHubLink}
