@@ -22,7 +22,6 @@
 .portfolio{
     grid-area: "portfolio";
     background-color: darkslategray;
-    font-size: 40px;
     padding: 15px;
 }
 .about{
@@ -65,4 +64,10 @@
 .portfolioTitle{
     text-align: center;
     margin: 10px 0px 15px 0px;
+    font-size: 40px;
+}
+.aboutTitle{
+    text-align: center;
+    margin: 10px 0px 15px 0px;
+    font-size: 40px;
 }

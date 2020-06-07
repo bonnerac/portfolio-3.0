@@ -1,9 +1,10 @@
 import React from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
-import video from '../../images/Chain.mp4'
+import video from '../../images/Night.mp4'
 import PortfolioEntry from '../PortfolioEntry'
 import portfolioInfo from './portfolioInfo.json'
+import AboutMe from '../AboutMe'
 import '../main/style.css'
 
 function Main() {
@@ -59,9 +60,11 @@ function Main() {
                 <div className="buffer2"></div>
                 <ScrollableAnchor id={'about'}>
                     <div className="about">
-                        this is the about section <br />
-                Nulla sodales vitae augue vel lacinia. In iaculis aliquam libero sed efficitur. Proin consectetur semper mauris, vitae vulputate diam tempor eu. Praesent luctus tellus sollicitudin velit tincidunt, sit amet pharetra elit vulputate. Fusce pulvinar lacus non eleifend pharetra. Aenean mollis volutpat lectus sed interdum. Mauris sagittis dignissim ante volutpat finibus. Praesent id ligula erat. Nunc tincidunt massa ut tempus gravida. Aliquam erat volutpat. Ut id felis orci. Suspendisse mollis, massa ac maximus efficitur, nulla elit sodales velit, vel volutpat tellus risus in nunc. Curabitur vestibulum lobortis diam, sed molestie eros maximus in. Suspendisse sit amet augue ultrices, dignissim orci sed, auctor ex. Vivamus accumsan est orci. Curabitur viverra vehicula consequat.
-                </div>
+                        <div className="aboutTitle" data-aos="slide-left" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="800">
+                            About Me
+                        </div>
+                        <AboutMe />
+                    </div>
                 </ScrollableAnchor>
                 <div className="buffer3"></div>
                 <ScrollableAnchor id={'contact'}>

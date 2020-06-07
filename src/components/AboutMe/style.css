@@ -1,0 +1,25 @@
+.aboutMeContainer{
+    display: grid;
+    overflow: hidden;
+    padding: 15px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+      "aboutImage aboutText"
+      "aboutLanguages aboutLanguages";
+}
+.aboutImage{
+    grid-area: aboutImage;
+}
+.aboutText{
+    grid-area: aboutText;
+}
+.aboutLanguages{
+    grid-area: aboutLanguages;
+}
+.myPicture{
+    height: 80%;
+}
+.languageIcons{
+    font-size: 40px;
+}
