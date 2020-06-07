@@ -13,6 +13,7 @@
 }
 .aboutText{
     grid-area: aboutText;
+    border: solid 1px black;
 }
 .aboutLanguages{
     grid-area: aboutLanguages;

@@ -19,9 +19,6 @@ function Sidebar() {
                     <div>
                         <a href='#about'> About </a>
                     </div>
-                    <div>
-                        <a href='#contact'> Contact </a>
-                    </div>
                 </div>
 
             </div>

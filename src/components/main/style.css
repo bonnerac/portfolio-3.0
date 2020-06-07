@@ -2,15 +2,13 @@
     display: grid;
     overflow: hidden;
     grid-template-columns: 100%;
-    grid-template-rows: 100vh 50vh 100vh 50vh 100vh 50vh 100vh;
+    grid-template-rows: 100vh 50vh 100vh 50vh 100vh;
     grid-template-areas: 
       "home"
       "buffer1"
       "portfolio"
       "buffer2"
-      "about"
-      "buffer3"
-      "contact";
+      "about";
 
 }
 .home{
@@ -28,10 +26,6 @@
     grid-area: "about";
     background-color: mediumorchid;
 }
-.contact{
-    grid-area: "contact";
-    background-color: powderblue;
-}
 .buffer1{
     background-image: url("../../images/bicycle-1872682.jpg");
     background-attachment: fixed;
@@ -41,13 +35,6 @@
 }
 .buffer2{
     background-image: url("../../images/home-office-1867761.jpg");
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.buffer3{
-    background-image: url("../../images/architecture-768432.jpg");
     background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;

@@ -67,24 +67,6 @@ function Main() {
                     </div>
                 </ScrollableAnchor>
                 <div className="buffer3"></div>
-                <ScrollableAnchor id={'contact'}>
-                    <div className="contact">
-                        this is the contact section <br />
-                    Mauris consectetur massa et mauris pellentesque elementum. Vestibulum rutrum molestie dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent vel urna enim. Sed vehicula mi tellus, vitae condimentum massa semper sit amet. Nam in sollicitudin enim. Fusce feugiat turpis at est maximus, vel viverra dui condimentum. Integer elit turpis, rutrum eget libero eget, iaculis placerat sem. Donec aliquam nisl a ex consequat consequat. Praesent auctor justo tellus, ac blandit augue faucibus quis. Curabitur blandit risus elementum est finibus fermentum. Phasellus turpis ex, congue id hendrerit at, sollicitudin quis ante. Etiam ac turpis efficitur, imperdiet tellus id, sagittis sapien. In vel luctus neque. Etiam mattis iaculis turpis tempor vehicula.
-
-                </div>
-                </ScrollableAnchor>
-
-
-
-
-
-
-
-
-
-
-
 
             </div>
         </>
