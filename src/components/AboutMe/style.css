@@ -13,16 +13,27 @@
 }
 .aboutText{
     grid-area: aboutText;
-    border: solid 1px black;
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px;
 }
 .aboutLanguages{
     grid-area: aboutLanguages;
-    font-family: 'Montserrat', sans-serif;
 }
 .myPicture{
     height: 80%;
 }
+.languageTitle{
+    font-size: 35px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
 .languageIcons{
     font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.languageList{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }

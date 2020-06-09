@@ -31,10 +31,22 @@ function AboutMe() {
                             I decided to attend a Coding Bootcamp at Northwestern University and began my web development journey. Having completed the program, I'm excited to bring my creative skills and unique background to your next project.
                 </div>
                 <div className="aboutLanguages">
-                    <div className="languageIcons">
-                        <FaHtml5 /> <FaCss3Alt /> <IoLogoJavascript /> <DiJqueryLogo /> <DiMysql /> <DiMongodb /> <FaNode /> <DiHeroku /> <FaReact /> <DiMaterializecss /> <DiVisualstudio /> <FaGithub />
+                    <div className="languageTitle">
+                        Languages/Technologies
                     </div>
-                    HTML5, CSS3, Javascript, JQuery, Sequelize, Express, Handlebars, MySQL, MongoDB, Node.JS, Heroku, React.JS, CSS Grid, Materialize, Visual Studio Code, GitHub, GitBash, Microsoft Office, G Suite, Google Drawings.
+                    <div className="languageIcons">
+                        <div>
+                            <FaHtml5 /> <FaCss3Alt /> <IoLogoJavascript /> <DiJqueryLogo /> <DiMysql /> <DiMongodb />
+                        </div>
+                        <div>
+                            <FaNode /> <DiHeroku /> <FaReact /> <DiMaterializecss /> <DiVisualstudio /> <FaGithub />
+                        </div>
+
+                    </div>
+                    <div className="languageList">
+                        HTML5, CSS3, Javascript, JQuery, Sequelize, Express, Handlebars, MySQL, MongoDB, Node.JS, Heroku, React.JS, CSS Grid, Materialize, Visual Studio Code, GitHub, GitBash, Microsoft Office, G Suite, Google Drawings.
+                    </div>
+
                 </div>
 
             </div>
