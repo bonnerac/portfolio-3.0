@@ -29,13 +29,13 @@ function Sidebar() {
                         Contact
                     </div>
                     <div className="contactLinks">
-                        <a href="https://github.com/bonnerac" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/bonnerac" target="_blank" rel="noopener noreferrer" style={{ marginRight: 5 }}>
                             <FaGithub />
                         </a>
-                        <a href="https://www.linkedin.com/in/alexbonner/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/alexbonner/" target="_blank" rel="noopener noreferrer" style={{ marginRight: 5 }}>
                             <FaLinkedin />
                         </a>
-                        <a href="https://docs.google.com/document/d/1eGtjoGfXdGk00iiEWivzXKpOt-24r7HaGVv7rRbK6Mk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <a href="https://docs.google.com/document/d/1eGtjoGfXdGk00iiEWivzXKpOt-24r7HaGVv7rRbK6Mk/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ marginRight: 5 }}>
                             <FiFileText />
                         </a>
                         <a href="mailto:alex.c.bonner@gmail.com" target="_blank" rel="noopener noreferrer">
