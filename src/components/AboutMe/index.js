@@ -18,10 +18,10 @@ function AboutMe() {
     return (
         <>
             <div className="aboutMeContainer">
-                <div className="aboutImage">
+                <div className="aboutImage" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="200">
                     <img className="myPicture" src={aboutImage} alt="my-pic" />
                 </div>
-                <div className="aboutText">
+                <div className="aboutText" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="200">
                     After graduating from the University of Dayton with a Bachelor's Degree in Music, I became the Director of Music Ministry at my local church.
                             <br />
                     <br />
@@ -31,10 +31,10 @@ function AboutMe() {
                             I decided to attend a Coding Bootcamp at Northwestern University and began my web development journey. Having completed the program, I'm excited to bring my creative skills and unique background to your next project.
                 </div>
                 <div className="aboutLanguages">
-                    <div className="languageTitle">
+                    <div className="languageTitle" data-aos="slide-left" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="200">
                         Languages/Technologies
                     </div>
-                    <div className="languageIcons">
+                    <div className="languageIcons" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="200">
                         <div>
                             <FaHtml5 /> <FaCss3Alt /> <IoLogoJavascript /> <DiJqueryLogo /> <DiMysql /> <DiMongodb />
                         </div>
@@ -43,7 +43,7 @@ function AboutMe() {
                         </div>
 
                     </div>
-                    <div className="languageList">
+                    <div className="languageList" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="200">
                         HTML5, CSS3, Javascript, JQuery, Sequelize, Express, Handlebars, MySQL, MongoDB, Node.JS, Heroku, React.JS, CSS Grid, Materialize, Visual Studio Code, GitHub, GitBash, Microsoft Office, G Suite, Google Drawings.
                     </div>
 

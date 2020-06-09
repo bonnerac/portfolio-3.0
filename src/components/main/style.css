@@ -20,6 +20,7 @@
 .myNameMain{
     font-family: 'Questrial', sans-serif;
     color: #c6180b;
+    font-size: 100px;
 }
 .portfolio{
     grid-area: "portfolio";
@@ -52,6 +53,7 @@
     top: 30%;
     left: 35%;
     font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
 }
 .portfolioTitle{
     text-align: center;
@@ -65,10 +67,8 @@
     font-size: 40px;
     font-family: 'Questrial', sans-serif;
 }
-h1 {
-    color: #666;
-  }
-  h1:after {
+
+  .title:after {
     position: absolute;
     left: 0px;
     content: '';
@@ -83,7 +83,7 @@ h1 {
     -webkit-transition: -webkit-transform 300ms ease-in-out;
     transition: transform 300ms ease-in-out;
   }
-  h1:hover:after {
+  .title:hover:after {
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
