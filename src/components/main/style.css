@@ -17,6 +17,9 @@
     color: white;
     font-size: 40px;
 }
+.myNameMain{
+    font-family: 'Questrial', sans-serif;
+}
 .portfolio{
     grid-area: "portfolio";
     background-color: darkslategray;
@@ -47,14 +50,40 @@
     position: absolute;
     top: 30%;
     left: 35%;
+    font-family: 'Montserrat', sans-serif;
 }
 .portfolioTitle{
     text-align: center;
     margin: 10px 0px 15px 0px;
     font-size: 40px;
+    font-family: 'Questrial', sans-serif;
 }
 .aboutTitle{
     text-align: center;
     margin: 10px 0px 15px 0px;
     font-size: 40px;
+    font-family: 'Questrial', sans-serif;
 }
+h1 {
+    color: #666;
+  }
+  h1:after {
+    position: absolute;
+    left: 0px;
+    content: '';
+    height: 80px;
+    width: 425px;
+    border-bottom: solid 3px #019fb6;
+    
+    -webkit-transform: scaleX(0.0001);
+    -ms-transform: scaleX(0.0001);
+    transform: scaleX(0.0001);
+    
+    -webkit-transition: -webkit-transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
+  }
+  h1:hover:after {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+  }

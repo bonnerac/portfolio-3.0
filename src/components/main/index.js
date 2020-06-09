@@ -20,7 +20,7 @@ function Main() {
                         </video>
                         <div className="overlayText" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="800">
                             Hello, I'm
-                            <h1 style={{ color: "red" }}>Alex Bonner</h1>
+                            <h1 className="myNameMain">Alex Bonner</h1>
                             <br />
                             I'm a Front End Web Developer
 

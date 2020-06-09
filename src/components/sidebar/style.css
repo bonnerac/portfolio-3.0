@@ -6,18 +6,21 @@
     position: relative;
     top: 32vh;
     font-size: 35px;
+    font-family: 'Questrial', sans-serif;
 }
 .links{
     text-align: center;
     position: relative;
     top: 38vh;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 .contactTitle{
     text-align: center;
     position: relative;
     top: 65vh;
     font-size: 20px;
+    font-family: 'Questrial', sans-serif;
 }
 .contactLinks{
     text-align: center;
