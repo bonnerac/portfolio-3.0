@@ -14,9 +14,11 @@
 .aboutText{
     grid-area: aboutText;
     border: solid 1px black;
+    font-family: 'Montserrat', sans-serif;
 }
 .aboutLanguages{
     grid-area: aboutLanguages;
+    font-family: 'Montserrat', sans-serif;
 }
 .myPicture{
     height: 80%;
