@@ -39,7 +39,7 @@ function Main() {
                         <div className="portfolioTitle" data-aos="slide-left" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="200">
                             My Portfolio
                         </div>
-                        <div data-aos="slide-right" data-aos-offset="-1000" data-aos-easing="ease-in-out-quart" data-aos-anchor-placement="bottom-top" data-aos-duration="2000" data-aos-delay="200">
+                        <div data-aos="slide-right" data-aos-offset="-50" data-aos-easing="ease-in-out-quart" data-aos-anchor-placement="top-center" data-aos-duration="2000" data-aos-delay="200">
                             <PortfolioEntry
                                 picture={portfolioInfo[0].picture}
                                 name={portfolioInfo[0].name}
@@ -49,7 +49,7 @@ function Main() {
                                 presentationLink={portfolioInfo[0].presentationLink}
                             />
                         </div>
-                        <div data-aos="slide-left" data-aos-offset="-1000" data-aos-easing="ease-in-out-quart" data-aos-anchor-placement="bottom-top" data-aos-duration="2000" data-aos-delay="200">
+                        <div data-aos="slide-left" data-aos-offset="-100" data-aos-easing="ease-in-out-quart" data-aos-anchor-placement="top-center" data-aos-duration="2000" data-aos-delay="200">
                             <PortfolioEntry
                                 picture={portfolioInfo[1].picture}
                                 name={portfolioInfo[1].name}
@@ -58,7 +58,7 @@ function Main() {
                                 gitHubLink={portfolioInfo[1].gitHubLink}
                                 presentationLink={portfolioInfo[1].presentationLink} />
                         </div>
-                        <div data-aos="slide-right" data-aos-offset="-1000" data-aos-easing="ease-in-out-quart" data-aos-anchor-placement="bottom-top" data-aos-duration="2000" data-aos-delay="200">
+                        <div data-aos="slide-right" data-aos-offset="-250" data-aos-easing="ease-in-out-quart" data-aos-anchor-placement="top-center" data-aos-duration="2000" data-aos-delay="200">
                             <PortfolioEntry
                                 picture={portfolioInfo[2].picture}
                                 name={portfolioInfo[2].name}
