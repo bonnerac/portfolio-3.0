@@ -8,7 +8,7 @@
 }
 .sidebar{
     grid-area: sidebar;
-    background-color: #455a64;
+    background-color: #2c3e50;
     position:fixed;
     top:0;
     height:100vh;
@@ -19,17 +19,17 @@
 
 }
 a:link {
-    color: yellow;
+    color: #c7ceb5;
   }
   
   a:visited {
-    color: cyan;
+    color: #279a8b;
   }
   
   a:hover {
-    color: lightgreen;
+    color: #c6180b;
   }
   
   a:active {
-    color: hotpink;
+    color: black;
   } 

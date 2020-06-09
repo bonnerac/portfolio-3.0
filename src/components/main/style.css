@@ -19,15 +19,16 @@
 }
 .myNameMain{
     font-family: 'Questrial', sans-serif;
+    color: #c6180b;
 }
 .portfolio{
     grid-area: "portfolio";
-    background-color: darkslategray;
+    background-color: #279a8b;
     padding: 15px;
 }
 .about{
     grid-area: "about";
-    background-color: mediumorchid;
+    background-color: #c7ceb5;
 }
 .buffer1{
     background-image: url("../../images/bicycle-1872682.jpg");
@@ -73,7 +74,7 @@ h1 {
     content: '';
     height: 80px;
     width: 425px;
-    border-bottom: solid 3px #019fb6;
+    border-bottom: solid 3px #279a8b;
     
     -webkit-transform: scaleX(0.0001);
     -ms-transform: scaleX(0.0001);
