@@ -43,7 +43,7 @@ function AboutMe() {
                         </div>
 
                     </div>
-                    <div className="languageList" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="200">
+                    <div className="languageList" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="200">
                         HTML5, CSS3, Javascript, JQuery, Sequelize, Express, Handlebars, MySQL, MongoDB, Node.JS, Heroku, React.JS, CSS Grid, Materialize, Visual Studio Code, GitHub, GitBash, Microsoft Office, G Suite, Google Drawings.
                     </div>
 

@@ -1,15 +1,15 @@
 .aboutMeContainer{
     display: grid;
     overflow: hidden;
-    padding: 15px;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 45% 50%;
     grid-template-areas: 
       "aboutImage aboutText"
       "aboutLanguages aboutLanguages";
 }
 .aboutImage{
     grid-area: aboutImage;
+    padding: 10px;
 }
 .aboutText{
     grid-area: aboutText;
@@ -19,6 +19,8 @@
 }
 .aboutLanguages{
     grid-area: aboutLanguages;
+    background-color: #279a8b;
+    padding: 15px;
 }
 .myPicture{
     height: 80%;
