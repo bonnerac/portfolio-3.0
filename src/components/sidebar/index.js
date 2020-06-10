@@ -14,14 +14,14 @@ function Sidebar() {
                     Alex Bonner
                 </div>
                 <div className="links">
-                    <div>
-                        <a href='#home'> Home </a>
+                    <div className="navLink">
+                        <a href='#home' style={{ textDecoration: "none" }}> Home </a>
                     </div>
-                    <div>
-                        <a href='#portfolio'> Portfolio </a>
+                    <div className="navLink" >
+                        <a href='#portfolio' style={{ textDecoration: "none" }}> Portfolio </a>
                     </div>
-                    <div>
-                        <a href='#about'> About </a>
+                    <div className="navLink">
+                        <a href='#about' style={{ textDecoration: "none" }}> About </a>
                     </div>
                 </div>
                 <div className="contact">

@@ -20,7 +20,7 @@ function Main() {
                         </video>
                         <div className="overlayText" >
                             <div data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="800">
-                                Hello, I'm
+                                Hello, I am
                             <br />
                             </div>
                             <div className="myNameMain title" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="1200">Alex Bonner</div>

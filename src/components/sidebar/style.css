@@ -4,7 +4,7 @@
 .myName{
     text-align: center;
     position: relative;
-    top: 32vh;
+    top: 28vh;
     font-size: 35px;
     font-family: 'Questrial', sans-serif;
 }
@@ -14,19 +14,43 @@
     top: 38vh;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
+    z-index: 3;
 }
 .contactTitle{
     text-align: center;
     position: relative;
-    top: 65vh;
+    top: 60vh;
     font-size: 27px;
     font-family: 'Questrial', sans-serif;
 }
 .contactLinks{
     text-align: center;
     position: relative;
-    top: 70vh;
+    top: 65vh;
     font-size: 24px;
     
 }
+.navLink{
+    padding: 10px;
+}
+.navLink:after {
+    position: absolute;
+    left: 32%;
+    content: '';
+    height: 30px;
+    width: 100px;
+    border-bottom: solid 3px #279a8b;
+    
+    -webkit-transform: scaleX(0.0001);
+    -ms-transform: scaleX(0.0001);
+    transform: scaleX(0.0001);
+    
+    -webkit-transition: -webkit-transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
+    z-index: -1;
+  }
+  .navLink:hover:after {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+  }
