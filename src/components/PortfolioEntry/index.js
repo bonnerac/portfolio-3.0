@@ -36,22 +36,6 @@ function PortfolioEntry(props) {
                     </div>
                 </div>
             </div>
-            {/* <div className="portContainer">
-                <img className="picture" src={picture} alt="portfolio-pic" />
-                <p className="description">{description}</p>
-                <div className="portLinks">
-                    <a className="project-icon" href={siteLink}>
-                        <FaChrome />
-                    </a>
-                    <a className="project-icon" href={gitHubLink}>
-                        <FaGithub />
-                    </a>
-                    <a className="project-icon" href={presentationLink}>
-                        <FaFilePowerpoint />
-                    </a>
-                </div>
-
-            </div> */}
         </>
     )
 }
