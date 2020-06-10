@@ -25,10 +25,10 @@ function AboutMe() {
                     After graduating from the University of Dayton with a Bachelor's Degree in Music, I became the Director of Music Ministry at my local church.
                             <br />
                     <br />
-                            When my family moved to Chicago, I became a stay-at-home dad to my energetic daughter, but after two years of reading board books and playing pretend, I wanted to jump-start my next career move.
+                            When my family moved to Chicago, I became a stay-at-home dad to my energetic daughter. After reading many board books and playing pretend, I knew it was time to jump-start my new career.
                             <br />
                     <br />
-                            I decided to attend a Coding Bootcamp at Northwestern University and began my web development journey. Having completed the program, I'm excited to bring my creative skills and unique background to your next project.
+                            I attended Northwestern University's Coding Bootcamp to begin my web development journey. Having completed the program, I am excited to bring my creative skills and unique background to your next project.
                 </div>
                 <div className="aboutLanguages">
                     <div className="languageTitle" data-aos="slide-left" data-aos-offset="200" data-aos-easing="ease-in-out-quart" data-aos-duration="2000" data-aos-delay="200">
