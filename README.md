@@ -7,29 +7,29 @@ An application to showcase my projects, give visitors more information about mys
 ## Technologies Used
 
 * React
-* React-bootstrap
-* React-icons
-* React-scroll-to
-* Reset CSS
+* Express
+* react-aos https://www.npmjs.com/package/react-aos
+* React-icons https://www.npmjs.com/package/react-icons
+* react-scrollable-anchor https://www.npmjs.com/package/@fernando-msj/react-scrollable-anchor
+* CSS Grid
+* Background images from Pixabay https://pixabay.com/
 
 
 ## Installation
 
-* No installation needed. Just go to https://calm-hollows-94662.herokuapp.com/ to start!
+* No installation needed. Just go to https://alexbonner.herokuapp.com/ to start!
 
 ## Design
-* The site is made up of 9 full-screen divs in a 3x3 grid, referred to going forward as panels.
+* The site uses CSS grid to create a side navbar and a content page. The navbar is sticky, while the rest of the page can be scrolled. It is divided into three sections:
+* Main
+ * Features a video background and staggered AOS animations.
+* Portfolio
+ * Features three portfolio projects that flip on hover, revealing the title, a description, and links. Also features AOS animations.
+* About Me
+ * Features a brief description of myself and the technologies I am proficient in. Uses AOS animations thoughout.
+ 
+ Site also has two buffer sections, first between the Main and Portfolio section, and finally between the Portfolio and About Me sections. These serve to sepearte each of the three sections and use parallax.
 
-![site design](https://docs.google.com/drawings/d/e/2PACX-1vTP9Czsbc0FzKHYZE3I3qt0-jc_kLCIabxm3JmkFyC9IYeO3bTO5-8KOvAhn9JBeuz0vmXYV8RUleVA/pub?w=960&h=720 "site-design")
-
-* This 3x3 grid design supports all content of the site without having to redirect to other pages.
-* It is designed so that the user only needs to click to navigate the site, no scrolling neccessary.
-* Panel content includes:
-  * Introduction (Panel 1)
-  * Navigation (Panel 5)
-  * Portfolio (Panel 4)
-  * About Me (Panel 6)
-  * Contact Information (Panel 8)
 
 ## Author
 * Alex Bonner
@@ -38,7 +38,11 @@ An application to showcase my projects, give visitors more information about mys
 
 ## Future Developments
 Some ideas for future development include:
-* Getting site working on all screen sizes for a similar user experience across all platforms.
+* Making site mobile-friendly.
 
 ## Credits and Thanks
-* Thanks to Colin (https://github.com/colingoodale) for all his help on the design.
+Front Page Video - "Night" by <a href="https://pixabay.com/users/FreeCreativeStuff-6346290/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=28860">Free Creative Stuff</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=28860">Pixabay</a>
+
+Buffer Image - "Notebook" by <a href="https://pixabay.com/users/freephotocc-2275370/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1280538">Free Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1280538">Pixabay</a>
+
+Buffer Image - "Work" by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=731198">Free-Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=731198">Pixabay</a>
