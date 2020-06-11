@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Portfolio
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+An application to showcase my projects, give visitors more information about myself, and present my contact information to potential clients/employers.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* React
+* React-bootstrap
+* React-icons
+* React-scroll-to
+* Reset CSS
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* No installation needed. Just go to https://calm-hollows-94662.herokuapp.com/ to start!
 
-### `npm run build`
+## Design
+* The site is made up of 9 full-screen divs in a 3x3 grid, referred to going forward as panels.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![site design](https://docs.google.com/drawings/d/e/2PACX-1vTP9Czsbc0FzKHYZE3I3qt0-jc_kLCIabxm3JmkFyC9IYeO3bTO5-8KOvAhn9JBeuz0vmXYV8RUleVA/pub?w=960&h=720 "site-design")
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* This 3x3 grid design supports all content of the site without having to redirect to other pages.
+* It is designed so that the user only needs to click to navigate the site, no scrolling neccessary.
+* Panel content includes:
+  * Introduction (Panel 1)
+  * Navigation (Panel 5)
+  * Portfolio (Panel 4)
+  * About Me (Panel 6)
+  * Contact Information (Panel 8)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
+* Alex Bonner
+  * https://github.com/bonnerac
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Future Developments
+Some ideas for future development include:
+* Getting site working on all screen sizes for a similar user experience across all platforms.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Credits and Thanks
+* Thanks to Colin (https://github.com/colingoodale) for all his help on the design.
