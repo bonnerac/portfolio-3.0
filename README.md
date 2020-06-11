@@ -21,12 +21,12 @@ An application to showcase my projects, give visitors more information about mys
 
 ## Design
 * The site uses CSS grid to create a side navbar and a content page. The navbar is sticky, while the rest of the page can be scrolled. It is divided into three sections:
-* Main
- * Features a video background and staggered AOS animations.
-* Portfolio
- * Features three portfolio projects that flip on hover, revealing the title, a description, and links. Also features AOS animations.
-* About Me
- * Features a brief description of myself and the technologies I am proficient in. Uses AOS animations thoughout.
+* Main  
+Features a video background and staggered AOS animations.
+* Portfolio  
+Features three portfolio projects that flip on hover, revealing the title, a description, and links. Also features AOS animations.
+* About Me  
+Features a brief description of myself and the technologies I am proficient in. Uses AOS animations thoughout.
  
  Site also has two buffer sections, first between the Main and Portfolio section, and finally between the Portfolio and About Me sections. These serve to sepearte each of the three sections and use parallax.
 
