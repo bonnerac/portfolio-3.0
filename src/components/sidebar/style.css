@@ -4,14 +4,14 @@
 .myName{
     text-align: center;
     position: relative;
-    top: 28vh;
+    top: 25vh;
     font-size: 35px;
     font-family: 'Questrial', sans-serif;
 }
 .links{
     text-align: center;
     position: relative;
-    top: 38vh;
+    top: 35vh;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     z-index: 3;
@@ -19,14 +19,14 @@
 .contactTitle{
     text-align: center;
     position: relative;
-    top: 60vh;
+    top: 55vh;
     font-size: 27px;
     font-family: 'Questrial', sans-serif;
 }
 .contactLinks{
     text-align: center;
     position: relative;
-    top: 65vh;
+    top: 60vh;
     font-size: 24px;
     
 }

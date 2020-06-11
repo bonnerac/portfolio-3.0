@@ -2,7 +2,7 @@
     display: grid;
     overflow: hidden;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 45% 50%;
+    grid-template-rows: 40% 50%;
     grid-template-areas: 
       "aboutImage aboutText"
       "aboutLanguages aboutLanguages";
@@ -10,6 +10,7 @@
 .aboutImage{
     grid-area: aboutImage;
     padding: 10px;
+    object-fit: cover;
 }
 .aboutText{
     grid-area: aboutText;
