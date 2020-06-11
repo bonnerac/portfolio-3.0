@@ -36,14 +36,14 @@
     background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .buffer2{
     background-image: url("../../images/notebook-1280538.jpg");
     background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .videoTag{
     height: 100%;
