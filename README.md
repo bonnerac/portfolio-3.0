@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Portfolio
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+An application to showcase my projects, give visitors more information about myself, and present my contact information to potential clients/employers.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* React
+* Express
+* react-aos https://www.npmjs.com/package/react-aos
+* React-icons https://www.npmjs.com/package/react-icons
+* react-scrollable-anchor https://www.npmjs.com/package/@fernando-msj/react-scrollable-anchor
+* CSS Grid
+* Background images from Pixabay https://pixabay.com/
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* No installation needed. Just go to https://alexbonner.herokuapp.com/ to start!
 
-### `npm run build`
+## Design
+The site uses CSS grid to create a side navbar and a content page. The navbar is sticky, while the rest of the page can be scrolled. It is divided into three sections:
+* Main  
+Features a video background and staggered AOS animations.
+* Portfolio  
+Features three portfolio projects that flip on hover, revealing the title, a description, and links. Also features AOS animations.
+* About Me  
+Features a brief description of myself and the technologies I am proficient in. Uses AOS animations thoughout.
+  
+ Site also has two buffer sections, first between the Main and Portfolio section, and finally between the Portfolio and About Me sections. These serve to sepearte each of the three sections and use parallax.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Author
+* Alex Bonner
+  * https://github.com/bonnerac
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Future Developments
+Some ideas for future development include:
+* Making site mobile-friendly.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Credits and Thanks
+Front Page Video - "Night" by <a href="https://pixabay.com/users/FreeCreativeStuff-6346290/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=28860">Free Creative Stuff</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=28860">Pixabay</a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Buffer Image - "Notebook" by <a href="https://pixabay.com/users/freephotocc-2275370/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1280538">Free Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1280538">Pixabay</a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Buffer Image - "Work" by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=731198">Free-Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=731198">Pixabay</a>
